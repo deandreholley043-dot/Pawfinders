@@ -1,17 +1,7 @@
-import { HeroSection } from "@/components/home/hero-section"
-import { BreedCategories } from "@/components/home/breed-categories"
-import { FeaturedListings } from "@/components/home/featured-listings"
-import { HowItWorks } from "@/components/home/how-it-works"
-import { CtaBanner } from "@/components/home/cta-banner"
-
-export default function HomePage() {
+export default function Page() {
   return (
-    <>
-      <HeroSection />
-      <BreedCategories />
-      <FeaturedListings />
-      <HowItWorks />
-      <CtaBanner />
-    </>
+    <div style={{ padding: 40 }}>
+      <h1>Pawfinder is Live ✅</h1>
+    </div>
   )
 }
